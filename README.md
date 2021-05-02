@@ -34,7 +34,7 @@ yarn build
 
 ## References
 
-https://inclusive-components.design/cards/
-https://uikit.wfp.org/docs/index.html?path=/story/getting-started-intro--page
-https://designsystem.gov.au/
-https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
+- https://inclusive-components.design/cards/
+- https://uikit.wfp.org/docs/index.html?path=/story/getting-started-intro--page
+- https://designsystem.gov.au/
+- https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
