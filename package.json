@@ -6,7 +6,8 @@
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "test": "jest"
+    "test": "jest",
+    "chromatic": "npx chromatic --project-token 62f747201087"
   },
   "dependencies": {
     "@material-ui/core": "4.11.4",
