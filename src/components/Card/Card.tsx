@@ -29,9 +29,9 @@ export const Card: React.FC = (props: CardProps) => {
           variant: "h6",
         }}
         subheader="Body 2"
-        classes={{
-          avatar: classes.avatar,
-        }}
+        // classes={{
+        //   avatar: classes.avatar,
+        // }}
       />
     </MUICard>
   );
@@ -41,9 +41,9 @@ const useStyles = makeStyles((theme: Theme) => ({
   root: {
     padding: theme.spacing(1, 1),
   },
-  // avatar: {
-  //   alignSelf: "start",
-  // },
+  avatar: {
+    alignSelf: "start",
+  },
 }));
 
 export default Card;
