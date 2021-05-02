@@ -1,0 +1,4 @@
+info @storybook/react v6.1.17
+info 
+info => Cleaning outputDir /var/folders/n_/7htpbvk51sb5x5ykrb0v7j7c0000gn/T/chromatic--76245-4zl3liP1CziJ
+ERR! Error: no such directory to load static files: /Users/sebastiankey/github/storybook-example/public
