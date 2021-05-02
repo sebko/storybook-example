@@ -15,13 +15,13 @@ export const Default = () => (
 
     <Grid container spacing={3}>
       <Grid item xs={12}>
-        <Box width={1 / 2}>
+        <Grid xs={12} sm={6}>
           <Typography gutterBottom component="p">
             Cards are a convenient means of displaying content composed of
             different types of objects. It is a multi usage component which
             creates boxes that are usually teasing some kind of content.
           </Typography>
-        </Box>
+        </Grid>
         <Typography gutterBottom variant="caption">
           (Card description from:{" "}
           <Link
