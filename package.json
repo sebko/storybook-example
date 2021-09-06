@@ -21,6 +21,7 @@
     "@react-theming/storybook-addon": "^1.1.1",
     "@storybook/addon-a11y": "^6.2.9",
     "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-docs": "^6.3.8",
     "@storybook/addon-links": "6.1.14",
     "@storybook/addons": "6.1.14",
     "@storybook/preset-create-react-app": "^2.1.1",
