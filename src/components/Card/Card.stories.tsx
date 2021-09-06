@@ -1,50 +1,20 @@
-import { Grid, Link, Typography, Box } from "@material-ui/core";
+import { Story, Meta } from "@storybook/react";
 import React from "react";
-import Card from "./Card";
+import Card, { CardProps } from "./Card";
 
 export default {
   title: "Components/Content Related/Card",
   component: Card,
+} as Meta;
+
+const Template: Story<CardProps> = (args) => {
+  return <Card {...args} />;
 };
 
-export const Default = () => (
-  <Box>
-    <Typography component="h1" variant="h4" gutterBottom>
-      Card
-    </Typography>
+export const Default = Template.bind({}) as Story;
+Default.args = {};
 
-    <Grid container spacing={3}>
-      <Grid item xs={12}>
-        <Grid xs={12} sm={6}>
-          <Typography gutterBottom component="p">
-            Cards are a convenient means of displaying content composed of
-            different types of objects. It is a multi usage component which
-            creates boxes that are usually teasing some kind of content.
-          </Typography>
-        </Grid>
-        <Typography gutterBottom variant="caption">
-          (Card description from:{" "}
-          <Link
-            href="https://uikit.wfp.org/docs/index.html?path=/docs/components-content-related-card--simple-card"
-            target="_blank"
-          >
-            World Food Programme UI Kit
-          </Link>
-          )
-        </Typography>
-      </Grid>
-      <Grid item xs={12}>
-        <Typography component="h2" variant="h6" gutterBottom>
-          Example
-        </Typography>
-        <div style={{ maxWidth: 345 }}>
-          <Card />
-        </div>
-      </Grid>
-    </Grid>
-  </Box>
-);
-
-Default.story = {
-  name: "Default",
+export const Square = Template.bind({}) as Story;
+Square.args = {
+  square: true,
 };
