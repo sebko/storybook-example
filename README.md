@@ -32,6 +32,16 @@ Build
 yarn build
 ```
 
+## Design proccess outline
+
+### Component API design
+
+The component API is purposely restrictive to prevent consumers from adding custom styles. I've also tried to leverage Material's design system where possible instead of adding custom one-off styles.
+
+### Tests
+
+An emphasis was placed on on writing the tests in a way that closely matches how a user would interact with the component.
+
 ## References
 
 - https://inclusive-components.design/cards/

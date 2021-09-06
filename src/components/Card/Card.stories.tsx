@@ -3,7 +3,7 @@ import React from "react";
 import Card, { CardProps } from "./Card";
 
 export default {
-  title: "Components/Content Related/Card",
+  title: "Components/Card",
   component: Card,
 } as Meta;
 
